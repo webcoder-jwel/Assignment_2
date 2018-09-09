@@ -16,6 +16,7 @@ body{
 	transform: translate(-50%, -50%);
 	box-sizing: border-box;
 	color:#ffff;
+	text-align: center;
 
 }
 .from_box {
@@ -24,7 +25,6 @@ body{
 	opacity: 0.9;
 }
 .from_box h2{
-	text-align: center;
 	font-size:16px;
 	text-transform: uppercase;
 	border:1px solid #bfc8cd;
@@ -37,7 +37,6 @@ body{
 }
 
 .from_box h1{
-	text-align: center;
 	font-size:25px;
 	text-transform: capitalize;
 	font-weight: bold;
@@ -46,14 +45,13 @@ body{
 }
 
 .from_box p{
-	text-align: center;
 	font-size:13px;
 	line-height: 20px;
 }
 .from_box input{
 	width: 100%;
 }
-.from_box input[type="text"]{
+.from_box input[type="text"],input[type="password"],input[type="submit"]{
 	border:none;
 	border-radius: 2px;
 	height: 40px;
@@ -62,19 +60,9 @@ body{
 	margin-bottom: 2px;
 }
 input[type="password"]{
-	border:none;
-	border-radius: 2px;
-	height: 40px;
-	font-size: 16px;
-	padding-left: 10px;
 	margin-bottom: 10px;
 }
 .from_box input[type="submit"]{
-	border:none;
-	border-radius: 2px;
-	height: 40px;
-	font-size: 16px;
-	padding-left: 10px;
 	margin-bottom: 10px;
 	background: #f1705d;
 	color:#fff;
@@ -107,15 +95,13 @@ input[type="password"]{
 }
 .from_box-1 a{
     display: block;
-    text-align: center;
     text-decoration: none;
     color: #fff;
-}
-.doc_ac{
-	padding-top: 16px;
+    padding-top: 16px;
 	font-size: 15px;
 	display: block;
 }
+
 .new_ac{
     text-transform: capitalize;
     font-weight: bold;
