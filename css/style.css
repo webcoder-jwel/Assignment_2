@@ -125,3 +125,8 @@ input[type="password"]{
     border: 1px solid #686b7a;
     padding: 10px;
  }
+ .box-3{
+ 	width: 100%;
+ 	background: #fff;
+ 	height: 25px;
+ }
