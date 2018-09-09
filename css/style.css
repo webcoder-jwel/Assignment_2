@@ -1,0 +1,127 @@
+body{
+	margin: 0;
+	padding:0;
+	background: url(../img/bg-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Lora', serif;
+
+}
+.mainbox{
+	width: 350px;
+	height: auto;
+	top:50%;
+	left: 50%;
+	position:absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	color:#ffff;
+
+}
+.from_box {
+	background: #466077;
+	padding: 35px 35px 11px 35px;
+	opacity: 0.9;
+}
+.from_box h2{
+	text-align: center;
+	font-size:16px;
+	text-transform: uppercase;
+	border:1px solid #bfc8cd;
+    padding: 10px;
+    font-weight: bold;
+    inline-size: 150px;
+    margin: 0 auto;
+	letter-spacing: 2px;
+
+}
+
+.from_box h1{
+	text-align: center;
+	font-size:25px;
+	text-transform: capitalize;
+	font-weight: bold;
+	margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.from_box p{
+	text-align: center;
+	font-size:13px;
+	line-height: 20px;
+}
+.from_box input{
+	width: 100%;
+}
+.from_box input[type="text"]{
+	border:none;
+	border-radius: 2px;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 10px;
+	margin-bottom: 2px;
+}
+input[type="password"]{
+	border:none;
+	border-radius: 2px;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+.from_box input[type="submit"]{
+	border:none;
+	border-radius: 2px;
+	height: 40px;
+	font-size: 16px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	background: #f1705d;
+	color:#fff;
+	transition: .5s all ease;
+}
+.from_box input[type="submit"]:hover{
+	cursor: pointer;
+	background: #f1805d;
+}
+
+.from_box .forgot {
+	font-size: 16px;
+	padding: 10px 0px;
+	margin-bottom: 15px;
+	background: #7b6572;
+	color:#fff;
+	text-decoration: none;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	transition: .5s all ease;
+}
+.from_box .forgot:hover{
+	background: #7c4556;
+}
+.from_box-1{
+	background: #2a4e68;
+	height: 129px;
+	opacity: 0.9;
+}
+.from_box-1 a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.doc_ac{
+	padding-top: 16px;
+	font-size: 15px;
+	display: block;
+}
+.new_ac{
+    text-transform: capitalize;
+    font-weight: bold;
+    inline-size: 230px;
+    margin: 22px auto 0px;
+    letter-spacing: 1px;
+    border: 1px solid #686b7a;
+    padding: 10px;
+ }
